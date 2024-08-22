@@ -1,0 +1,38 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignore ClickHouseCluster state files
+ClickHouseCluster.tfstate
+ClickHouseCluster.tfstate.backup
+ClickHouseCluster*.tfstate
+ClickHouseCluster*.tfstate.*
+
+# Ignore KafkaCluster state files
+KafkaCluster.tfstate
+KafkaCluster.tfstate.backup
+KafkaCluster*.tfstate
+KafkaCluster*.tfstate.*
+
+# Ignore AWSAPIGateway state files
+AWSAPIGateway.tfstate
+AWSAPIGateway.tfstate.backup
+AWSAPIGateway*.tfstate
+AWSAPIGateway*.tfstate.*
+
+# Ignore EKS state files
+EKS.tfstate
+EKS.tfstate.backup
+EKS*.tfstate
+EKS*.tfstate.*
+
+# Ignore LambdaFunction state files
+LambdaFunction.tfstate
+LambdaFunction.tfstate.backup
+LambdaFunction*.tfstate
+LambdaFunction*.tfstate.*
+
+# Ignore lambda_function.py
+lambda_function.py
